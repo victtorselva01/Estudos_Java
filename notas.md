@@ -21,3 +21,11 @@
   - Scanner leitor = new Scanner(System.in);
   - leitor.nextLine() → lê texto
   - leitor.nextInt() → lê número inteiro
+
+  ## Condicionais (30/07)
+- if (condição) { ... } → executa se verdadeiro
+- else if (condição) { ... } → checa outra condição se a anterior for falsa
+- else { ... } → executa se nenhuma condição anterior foi verdadeira
+- Condições são checadas em ordem; assim que uma bate, o resto é ignorado
+- Indentação não afeta funcionamento em Java, mas é essencial pra legibilidade
+- Shift + Alt + F no VS Code formata/indenta automaticamente
