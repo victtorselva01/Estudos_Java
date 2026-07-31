@@ -1,13 +1,16 @@
+import java.util.Scanner;
+
 public class Ola {
     public static void main(String[] args) {
-       String nome = "Victor";
-       int idade = 28;
-       double altura = 1.75;
-       boolean estaAprendendoJava = true;
+        Scanner leitor = new Scanner (System.in);
 
-       System.out.println("Nome: " + nome);
-       System.out.println("Idade: " + idade);
-       System.out.println("Altura: " + altura);
-       System.out.println("Está Aprendendo Java: " + estaAprendendoJava);
+        System.out.println("Qual o seu nome?");
+        String nome = leitor.nextLine();
+
+        System.out.println("Quantos anos você tem?");
+        int idade = leitor.nextInt();
+
+        System.out.println("Olá, " + nome + "! Você tem " + idade + " anos.");
+        }
     }
-}
+    
